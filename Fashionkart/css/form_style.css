@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:#0375ca;
+}
+.container{
+    display: flex;
+    width: 50vw;
+    height: 60vh;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 15px 15px 15px #0064ae;
+}
+.form h1{
+    font-size: 20px;
+    margin-top: 15px;
+    margin: 15px;
+    color: #03375c;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 16vw;
+    align-items: center;
+    background-color: #d8e9ff;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input{
+    margin: 5px;
+    padding: 5px;
+    color: #03375c;
+}
+.submit{
+    margin: 5px;
+    padding: 5px;
+    width: 5vw;
+    margin: 5px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    outline: none;
+    border-radius: 15px;
+    transition: 0.1s;
+}
+.submit:hover{
+    background-color: red;
+    cursor: pointer;
+    
+}
+.a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    margin-top: 5px;
+    transition: 0.5s;
+}
+.a:hover{
+    color: #cf3202;
+}
+.img{
+    background: radial-gradient(#1e76d152,#0375ca);
+}
+img{
+    width: 32vw;
+    transition: 1s;
+}
+/* .container:hover{
+    width:19vw;
+} */
+.register{
+    margin: 5px;
+    padding: 5px;
+    width: 5vw;
+    margin: 5px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    outline: none;
+    border-radius: 15px;
+    transition: 0.2s;
+}
+.register:hover{
+    background-color: red;
+    width: 6vw;
+    transform: translateY(2px);
+
+}
+.container{
+    box-shadow: 15px 15px 15px black;
+}
